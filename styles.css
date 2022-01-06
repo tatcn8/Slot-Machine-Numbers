@@ -1,0 +1,119 @@
+body{
+    background-color: gray
+}
+.siren1{
+    width: 50%;
+    float: right;
+}
+.siren2{
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+.image1{
+    height: 125px;
+    width: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0%;
+}
+.image2{
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin-left: 0%;
+    margin-right: auto;
+}
+h1{
+    color: rgb(27, 53, 83);
+    text-align: center;
+}
+h2{ 
+    color: rgb(27, 53, 83);
+}
+.tokens{
+  display: block;
+  color: rgb(27, 53, 83);;
+}
+
+.parent{
+  display: block;
+  border: 10px solid;
+  border-color: rgb(101, 158, 223);
+  background-color: rgb(82, 76, 76);
+  height: 50px;
+  width: 99%
+}
+.child{
+  line-height: 50px;
+  text-align:center;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: rgb(177, 128, 39);
+  height: 50px;
+  width: 50%;
+}
+.spacer{
+  display: block;
+  color: aliceblue;
+}
+.youwin{
+  display: none;
+  color: green;
+}
+.youlose{
+  display: none;
+  color: red;
+}
+.button1{
+    font-size: x-large;
+    font-weight: bolder;
+    color:rgb(27, 53, 83);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(101, 158, 223);
+    background-color: gray
+}
+p{
+  text-align: right;
+}
+.column {
+    font-size: 50px;
+    background-color:rgb(101, 158, 223);
+    color: black;
+    text-align: center;
+    float: left;
+    width: 33.33%;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.result1{
+    display: none;
+    font-size: 35px;
+    text-align: center;
+    color: green;
+  }
+.result2{
+    display: none;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(185, 23, 23);
+  }
+.gameover{
+    display: none;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(185, 23, 23);
+  }
+ .winnermessage{
+  display: none;
+  font-size: 35px;
+  text-align: center;
+  color: green;
+}
